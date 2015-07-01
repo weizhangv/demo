@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-size:12px; color:#333;}
+a{ text-decoration:none; font-size:12px; color:#333}
+.tab{
+	width:200px;
+	height:300px;
+	margin:50px auto 0;
+	position:relative;
+}
+.list{
+	width:200px;
+	height:300px;
+	overflow:hidden;
+}
+.list img{ width:200px; height:300px;}
+.list ul{
+	width:600px;
+}
+.list li{
+	float:left;
+	position:absolute;
+	display:none;
+}
+.text{
+	position:absolute;
+	bottom:40px;
+	left:0;
+	color:#fff;
+	z-index:10;
+
+}
+.text li{
+	height:25px;
+	line-height:25px;
+	width:160px;
+	padding-left:10px;
+	position:relative;
+	cursor:pointer;
+}
+.text li b{
+	background:url(../imgs/sprite.png) no-repeat -107px -20px;
+	width:5px;
+	height:9px;
+	position:absolute;
+	right:10px;
+	top:6px;
+	display:none;
+}
+.text li.wid{
+	width:190px;
+}
+.text li.wid b{
+	display:block;
+}
+.text li.li1{
+	background:#C39;
+}
+
+.text li.li2{
+	background:#F3C;
+}
+.text li.li3{
+	background:#0CF;
+}
